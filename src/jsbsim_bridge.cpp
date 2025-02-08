@@ -120,6 +120,9 @@ bool JSBSimBridge::SetFdmConfigs(ConfigurationParser &cfg) {
     _fdmexec->SetOutputDirectives(SGPath("data_out/flightgear.xml"));
   }
 
+  // Add CSV log file output
+  _fdmexec->SetOutputDirectives(SGPath("data_out/jsbsim_csv_log.xml"));
+
   // Define JSBSim initialization script (scene or world)
   SGPath init_script_path = SGPath::fromLocal8Bit((cfg.getInitScriptPath()).c_str());
 

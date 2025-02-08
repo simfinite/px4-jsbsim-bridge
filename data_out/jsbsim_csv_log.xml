@@ -1,0 +1,4 @@
+<output name="jsbsim_log.csv" type="CSV" rate="10">
+   <velocities> ON </velocities>
+   <rates> ON </rates>
+</output>
