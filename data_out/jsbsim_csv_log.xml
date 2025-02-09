@@ -1,4 +1,11 @@
+<!-- Documentation: https://wiki.flightgear.org/JSBSim_Logging -->
 <output name="jsbsim_log.csv" type="CSV" rate="10">
+   <position> ON </position>
    <velocities> ON </velocities>
    <rates> ON </rates>
+   <atmosphere> ON </atmosphere>
+   <simulation> ON </simulation>
+   <ground_reactions> ON </ground_reactions>
+   <propulsion> ON </propulsion>
+   <forces> ON </forces>
 </output>
