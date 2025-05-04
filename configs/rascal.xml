@@ -12,6 +12,7 @@
         <gps>
         </gps>
         <barometer>
+            <baro_mbar_rms_noise>0.1</baro_mbar_rms_noise>
         </barometer>
         <magnetometer>
         </magnetometer>
